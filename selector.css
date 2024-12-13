@@ -1,0 +1,78 @@
+            *,
+                *::before,
+                *::after{
+                  box-sizing: border-box;  
+                }
+                :root{
+                    font-size: 18px;
+                }
+                body{
+                    margin: unset;
+                    width: 100%;
+                    background-image: url("87c3d1dd-185a-42d1-8c90-f7645ef18a52.jpeg");
+                }
+                .container{
+                    margin-left: 110px;
+                }
+
+                .heading1 {
+                    font-family: "honk", sans-serif;
+                    font-weight: 400;
+                    font-size: 100px;
+                    text-transform: capitalize;
+                    letter-spacing: 1px;
+                  }
+
+                  .box{
+                    width: 300px;
+                    height: 300px;
+                    vertical-align: top;
+                    display: inline-block;
+                    padding-top: 1.5em;
+                    padding-left: 0.65em;
+                    padding-bottom: 1.5em;
+                    margin-right: 20px;
+                    overflow: wrap;
+                    background-color: purple;
+                    border-radius: 10px;
+                  }
+
+                  .heading2{
+                    font-family: "Roboto Mono", monospace;
+                    font-optical-sizing: auto;
+                    font-weight: 700px;
+                    font-style: normal;
+                    font-size: 1em;
+                    padding-top:0;
+                    color:orangered;
+                    text-indent: 5px;
+                    margin-top: -20px;
+                  }
+
+                  .para{
+                    font-family: "Roboto Mono", monospace;
+                    font-size: 0.75em;
+                    letter-spacing: 2px;
+                    color: cyan;
+                  }
+                  
+                  .full{
+                    width: 88.2%;
+                    background-color: rgb(46, 0, 66);
+                    font-size:1.2rem;
+                    border-radius: 10px;
+                    padding-right: 1em;
+                    margin-right: 20px;
+                    color: cyan;
+                }
+                .full h4{
+                    font-family: "honk", sans-serif;
+                    font-weight: 400;
+                    font-size: 2.5rem;
+                }
+                .full p{
+                  font-family: "Roboto Mono", monospace;
+                  font-size: 1em;
+                  letter-spacing: 2px;
+                  color: cyan;
+                }
